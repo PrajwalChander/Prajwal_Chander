@@ -248,7 +248,7 @@ h3 {
 }
 
 #hero {
-  background-image: url("final_bg1.jpeg");
+  background-image: url("final_bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top; /* Updated: Center the image vertically at the top */
