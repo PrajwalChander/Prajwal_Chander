@@ -247,10 +247,16 @@ h3 {
   text-decoration: none;
 }
 
-/* Add this CSS code to your existing styles1.css file or create a new CSS file */
 #hero {
   background-image: url("final_bg1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center top; /* Updated: Center the image vertically at the top */
+}
+
+/* Adjust the background image positioning for smaller screens */
+@media (max-width: 768px) {
+  #hero {
+    background-position: center center; /* Updated: Center the image both horizontally and vertically */
+  }
 }
