@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to my<br>Personal Website</h1>
+      <p>Showcasing my skills<br>and achievements</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+   
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <img src="profile.jpg" alt="Profile Image" width="200px" height="200px">
+      <p>I am currently pursuing my studies in Computer Science Engineering with a 
+        specialization in Data Science at Vellore Institute of Technology (VIT) in Vellore, India.</p>
+      <p>Results-driven intern with a passion for frontend development and backend programming. Currently
+        interning at Jurident, a subsidiary of VALSCO, gaining hands-on experience in web development. I
+        strive to create user-friendly and visually appealing web applications. Seeking an opportunity to
+        contribute my skills and creativity to a dynamic frontend development role.</p>
+      <p>During my time at VIT, I have actively engaged in various projects that have enhanced my skills
+         as a full stack developer. I have worked on a range of projects that involve designing 
+         and developing both the front-end and back-end components, utilizing technologies such as HTML,
+          CSS, JavaScript, Python, and databases like MySQL. These experiences have equipped me with a
+           solid understanding of the software development life cycle and the ability to collaborate 
+           with cross-functional teams to deliver high-quality solutions.</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="project">
+        <h3>Hire Neighbourhood</h3>
+        <img src="project1.jpeg" alt="Project 1 Image" width="200px" height="200px"><br><br>
+        
+        <div id="hire-neighbourhood-description" class="project-description hidden">
+       <p><strong>  <em> "Hire Neighbourhood" is an innovative online platform that connects individuals and 
+            businesses with local workers in their community.Our project aims to streamline the 
+            process of finding and hiring skilled professionals for various tasks, fostering a 
+            sense of community collaboration and empowering local economies.<br>
+  
+            With Hire Neighbourhood, users can easily browse through a diverse range of 
+            local workers who offer their services in areas such as home repairs, gardening, 
+            cleaning, tutoring, event planning, and much more. Whether you need assistance 
+            with a small task or a larger project, our platform simplifies the process of 
+            finding the right professional for the job.</em></strong></p>
+            <p>In developing Hire Neighbourhood, I utilized a diverse range of skills to create 
+              an effective and user-friendly platform. Here are the key skills that were employed:</p>
+              <ul>
+                <li>Front-End Development: I leveraged my proficiency in HTML, CSS, and JavaScript to create 
+                  an intuitive and visually appealing user interface. By implementing responsive design
+                   principles, I ensured that the platform is accessible and functional across various
+                    devices and screen sizes.</li>
+                    <li>User Experience (UX) Design: I incorporated UX design principles to create a
+                       smooth and enjoyable experience for users. Through careful consideration of
+                        user flows, information architecture, and visual design, I aimed to optimize 
+                        usability and engagement on the platform.</li>
+                        <li>Database Management: I designed and implemented a robust database structure
+                           using modern database management systems. This allowed for
+                            retrieval of relevant data.</li>
+              </ul>
+              </div>
+              <button class="description-button" onclick="toggleDescription('hire-neighbourhood')">More About Project</button><br>
+              <a href="https://prajwalchander.github.io/hire_neighbourhood/" class="demo">Demo</a>
+        
+      </div>
+      <div class="project">
+        <h3>E-Commerse Platform</h3>
+        <img src="project2.jpeg" alt="Project 2 Image" width="200px" height="200px">
+        <div id="e-commerse-description" class="project-description hidden">
+        <p>By leveraging the Flask framework and incorporating essential features, I have created a 
+          robust and user-friendly online shopping website. The project demonstrates proficiency in 
+          various technologies, including Flask, Python, HTML, CSS, and JavaScript.
+
+          Key features of the e-commerce platform include a secure user authentication
+           system, allowing users to sign up and log in to their personalized accounts.
+            Users can browse through a vast collection of products, add items to their cart, 
+            and manage their inventory. The platform also supports editing and deleting products, 
+            providing a seamless and dynamic shopping experience.
+          
+          Through this project, I have gained hands-on experience in building database-driven 
+          applications, as well as implementing essential functionalities like product management, 
+          cart functionality, and secure user interactions. Additionally, I have acquired knowledge 
+          in front-end development, ensuring a visually appealing and intuitive user interface.
+          
+          By implementing my knowledge of Flask, Python, HTML, CSS, and JavaScript through this e-commerce project,
+           I aim to demonstrate my ability to develop scalable and
+            feature-rich web applications.</p>
+            </div><br>
+           <br> <button class="description-button" onclick="toggleDescription('e-commerse')">More About Project</button><br>
+           <a href="https://prajwalchander.github.io/E-commerce_website_Flask/" class="demo">Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>BootStrap</li>
+        <li>Python</li>
+        <li>Flask</li><br>
+        <li>Java</li>
+        <li>MongoDB</li>
+        <li>Express.js</li>
+        <li>React.js</li><br>
+        <li>Node.js</li>
+        <li>MySQL</li>
+        <li>Cryptography</li><br>
+        <li>C</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>You can reach me at <a href="mailto:prajwalchander2003@gmail.com">prajwalchander2003@gmail.com</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Ch.Prajwal Chander</p>
+    </div>
+  </footer>
+  <script>
+  function toggleDescription(projectId) {
+    const description = document.getElementById(projectId + '-description');
+    description.classList.toggle('hidden');
+  }</script>
+  
+  
+</body>
+</html>
