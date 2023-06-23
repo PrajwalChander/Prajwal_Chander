@@ -135,6 +135,9 @@ h2 {
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+#about{
+  color:#f5f5f5;
+}
 
 /* Portfolio section */
 
@@ -246,7 +249,6 @@ h3 {
   border-radius: 4px;
   text-decoration: none;
 }
-
 #hero {
   background-image: url("final_bg1.jpeg");
   background-repeat: no-repeat;
@@ -276,3 +278,6 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+
+
